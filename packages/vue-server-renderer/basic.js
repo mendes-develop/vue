@@ -4,6 +4,9 @@
   (global = global || self, global.renderVueComponentToString = factory());
 }(this, function () { 'use strict';
 
+
+  alert("The bug is here")
+
   /*  */
 
   var emptyObject = Object.freeze({});
